@@ -1,0 +1,1 @@
+This project involves the analysis of housing prices in King County, Washington, employing linear regression. The dataset utilized for this analysis is sourced from Kaggle, providing comprehensive information on homes sold in the region between May 2014 and May 2015. The dataset encompasses 21 columns, each capturing distinct attributes related to the housing transactions. 
