@@ -45,29 +45,6 @@ Assess the performance of the linear regression model through appropriate evalua
 **Visualization of Results:**<br>
 Present the findings and insights derived from the linear regression model in a visually comprehensible manner.
 
-# Part 1: Import Data and Explore
-
-Let's initiate Exploratory Data Analysis (EDA) by reading and summarizing the data. To facilitate this analysis, I will import and utilize relevant libraries.
-
-```
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from IPython.display import display
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score 
-from sklearn.metrics import mean_squared_error
-```
-The dataset is in csv format. I will use pandas to convert the dataset into pandas dataframe and let's give it a name 'housing_data'.
-```
-housing_data = pd.read_csv('KingCounty_house_data.csv')
-housing_data.shape
-(21613, 21)
-```
-The dataset contains 21613 rows and 21 columns. 
-
-
-
+**Build and train logarithmic and polynomial transformation:
+Compare the evaluation metric between linear, log transformed  and polynomial transformed model.
 
