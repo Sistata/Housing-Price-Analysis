@@ -47,6 +47,7 @@ Present the findings and insights derived from the linear regression model in a 
 
 Let's initiate Exploratory Data Analysis (EDA) by reading and summarizing the data. To facilitate this analysis, I will import and utilize relevant libraries.
 
+```
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -56,6 +57,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score 
 from sklearn.metrics import mean_squared_error
-
+```
 
 
