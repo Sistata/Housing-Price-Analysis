@@ -66,6 +66,7 @@ housing_data = pd.read_csv('KingCounty_house_data.csv')
 housing_data.shape
 (21613, 21)
 ```
+The dataset contains 21613 rows and 21 columns. 
 
 
 
