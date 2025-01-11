@@ -45,6 +45,6 @@ Assess the performance of the linear regression model through appropriate evalua
 **Visualization of Results:**<br>
 Present the findings and insights derived from the linear regression model in a visually comprehensible manner.
 
-**Build and train logarithmic and polynomial transformation:
+**Build and train logarithmic and polynomial transformation:**<br>
 Compare the evaluation metric between linear, log transformed  and polynomial transformed model.
 
