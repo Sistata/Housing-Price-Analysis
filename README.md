@@ -1,3 +1,5 @@
+# King County Housing Price Prediction
+
 This project involves the analysis of housing prices in King County, Washington, using linear regression. The dataset utilized for this analysis is sourced from Kaggle, providing comprehensive information on homes sold in the region between May 2014 and May 2015. The dataset encompasses 21 columns, each capturing distinct attributes related to the housing transactions. 
 <br><br>
 1. id : A notation for a house<br>
@@ -58,5 +60,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score 
 from sklearn.metrics import mean_squared_error
 ```
+The dataset is in csv format. I will use pandas to convert the dataset into pandas dataframe and let's give it a name 'housing_data'.
+```
+housing_data = pd.read_csv('KingCounty_house_data.csv')
+housing_data.shape
+(21613, 21)
+```
+
+
 
 
